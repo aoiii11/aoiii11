@@ -94,6 +94,34 @@ for (let key in object) {
 
 
 
+函式練習
+  <!--20240326-->>
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+function getAreal(radius){var area = 3.14*radius*radius;
+window.alert('半徑'+radius+'的圓面積為'+area);
+}
+
+var circleRadius=window.prompt('請輸入半徑,','');
+getAreal(circleRadius);
+function getArea2(radius){
+    var area = 3.14*radius*radius;
+    return area;
+} 
+var circleRadius=window.prompt('請輸入半徑,','');
+var circleArea=getArea2(circleRadius);
+window.alert('半徑為'+circleRadius+'的圓面積為'+circleArea);
+</script> 
+</body>
+</html>
+
+
+
 
 
 
